@@ -1,29 +1,29 @@
 {
   "name": "react_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "React template without CRA (using webpack and babel)",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot --port 3000",
-    "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "@babel/preset-react": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "html-webpack-plugin": "^4.5.0",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
-  }
+  "devDependencies": {}
 }
